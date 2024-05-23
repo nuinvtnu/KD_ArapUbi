@@ -9,10 +9,10 @@ Herein, we provide the KD_ArapUbi project to support scientists for their relati
 -	Library: Keras, Tensorflow, Sklearn
 -	Input: format: .csv ; windowsize: 31
 # Prediction: step-by-step as followings:
--**	Step 1: Data collection and pre-processing**
--	**Step 2: Extract fragments using window size of 31**
--	**Step 3: Removing redundant and homologous data using CD-HIT **
--	**Step 4: Word separating using 1-gram …**
+-	**Step 1: Data collection and pre-processing**
+- **Step 2: Extract fragments using window size of 31**
+-	**Step 3: Removing redundant and homologous data using CD-HIT**
+-	**Step 4: Word separating using 1-gram**
 
 def ProSentence(pro, K):
   sentence = ""
